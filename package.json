@@ -1,0 +1,27 @@
+{
+  "name": "ntsvarietyservices",
+  "version": "1.0.0",
+  "description": "A Website for a catering service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoanyomba123/Web-Application.git"
+  },
+  "keywords": [
+    "Catering",
+    "Service",
+    "Node",
+    "JS",
+    "Express",
+    "MERN"
+  ],
+  "author": "Yoan Yomba, Sean Kirkland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoanyomba123/Web-Application/issues"
+  },
+  "homepage": "https://github.com/yoanyomba123/Web-Application#readme"
+}
