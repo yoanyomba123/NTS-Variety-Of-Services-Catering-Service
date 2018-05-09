@@ -12,6 +12,8 @@ var app = express();
 app.use("/NTS/main", main);
 app.use("/NTS/order", order);
 
+// loading view folder for static files
+app.use(express.static(__dirname + "/public"));
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`server listening on port ${PORT}`));;

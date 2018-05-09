@@ -10,7 +10,7 @@ var router = express.Router();
 @description  tests get access
 @access       public
 */
-router.get("/main/home", (request, response){
+router.get("/routes/home", (request, response)=>{
     response.json({
         msg: " Home page access works"
     });

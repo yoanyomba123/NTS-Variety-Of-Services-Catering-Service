@@ -10,10 +10,8 @@ var router = express.Router();
 @description  tests get access
 @access       public
 */
-router.get("/main/home", (request, response)=>{
-    response.json({
-        msg: " Home page access works"
-    });
+router.get("/home", (request, response)=>{
+    response.sendFile('index.html', { root: './public' });
 });
 
 
@@ -22,7 +20,7 @@ router.get("/main/home", (request, response)=>{
 @description test get access to about page
 @access      public
 */
-router.get("/main/about", (request, response)=>{
+router.get("/about", (request, response)=>{
     response.json({
         msg: "About page access works"
     });
@@ -33,7 +31,7 @@ router.get("/main/about", (request, response)=>{
 @description test get access to events page
 @access      public
 */
-router.get("/main/events", (request, response)=>{
+router.get("/events", (request, response)=>{
     response.json({
         msg: "Events page access works"
     });
@@ -44,7 +42,7 @@ router.get("/main/events", (request, response)=>{
 @description test get access to venue page
 @access      public
 */
-router.get("/main/venue", (request, response)=>{
+router.get("/venue", (request, response)=>{
     response.json({
         msg: "Venue page access works"
     });
@@ -56,7 +54,7 @@ router.get("/main/venue", (request, response)=>{
 @description test get access to contact page
 @access      public
 */
-router.get("/main/reservation", (request, response)=>{
+router.get("/reservation", (request, response)=>{
     response.json({
         msg: "Reservation page access works"
     });
@@ -67,7 +65,7 @@ router.get("/main/reservation", (request, response)=>{
 @description test get access to contact page
 @access      public
 */
-router.get("/main/contact", (request, response)=>{
+router.get("/contact", (request, response)=>{
     response.json({
         msg: "Contacts page access works"
     });
