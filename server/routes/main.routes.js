@@ -10,7 +10,7 @@ var router = express.Router();
 @access       public
 */
 router.get("/home", (request, response) => {
-    response.sendFile('index.html', {root: './public'});
+  //response.sendFile('index.html', {root: './public'});
 });
 
 /*
@@ -19,7 +19,7 @@ router.get("/home", (request, response) => {
 @access      public
 */
 router.get("/about", (request, response) => {
-    response.json({msg: "About page access works"});
+  response.json({ msg: "About page access works" });
 });
 
 /*
@@ -28,7 +28,7 @@ router.get("/about", (request, response) => {
 @access      public
 */
 router.get("/events", (request, response) => {
-    response.json({msg: "Events page access works"});
+  response.json({ msg: "Events page access works" });
 });
 
 /*
@@ -37,7 +37,7 @@ router.get("/events", (request, response) => {
 @access      public
 */
 router.get("/venue", (request, response) => {
-    response.json({msg: "Venue page access works"});
+  response.json({ msg: "Venue page access works" });
 });
 
 /*
@@ -46,7 +46,7 @@ router.get("/venue", (request, response) => {
 @access      public
 */
 router.get("/reservation", (request, response) => {
-    response.json({msg: "Reservation page access works"});
+  response.json({ msg: "Reservation page access works" });
 });
 
 /*
@@ -55,7 +55,7 @@ router.get("/reservation", (request, response) => {
 @access      public
 */
 router.get("/contact", (request, response) => {
-    response.json({msg: "Contacts page access works"});
+  response.json({ msg: "Contacts page access works" });
 });
 
 module.exports = router;
