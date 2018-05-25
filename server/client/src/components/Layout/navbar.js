@@ -41,7 +41,7 @@ class Navbar extends Component {
       </ul>
     );
     return (
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark navbar-fixed-top mb-4">
+      <nav className="navbar navbar-expand-sm navbar-light bg-light sticky-top mb-4">
         <div className="container">
           <Link className="navbar-brand" to="/">
             <h3>NTS Variety Of Services</h3>

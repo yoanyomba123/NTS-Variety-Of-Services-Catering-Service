@@ -47,6 +47,35 @@ img {
   margin-bottom: -50px;
 }
 
+.chef {
+  position: relative;
+  background: url("./img/cheese.gif") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+.cake-spin {
+  position: relative;
+  background: url("./img/cake_spin.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.full-page {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+
 .landing-inner {
   padding-top: 80px;
 }
