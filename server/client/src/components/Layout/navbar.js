@@ -9,7 +9,7 @@ class Navbar extends Component {
     var homelinks = (
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
-          <Link className="nav-link" to="/Home">
+          <Link className="nav-link" to="/">
             Home
           </Link>
         </li>
@@ -41,7 +41,7 @@ class Navbar extends Component {
       </ul>
     );
     return (
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
+      <nav className="navbar navbar-expand-sm navbar-dark bg-dark navbar-fixed-top mb-4">
         <div className="container">
           <Link className="navbar-brand" to="/">
             <h3>NTS Variety Of Services</h3>
