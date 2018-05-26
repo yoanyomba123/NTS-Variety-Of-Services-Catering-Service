@@ -14,7 +14,14 @@
     "type": "git",
     "url": "git+https://github.com/yoanyomba123/Web-Application.git"
   },
-  "keywords": ["Catering", "Service", "Node", "JS", "Express", "MERN"],
+  "keywords": [
+    "Catering",
+    "Service",
+    "Node",
+    "JS",
+    "Express",
+    "MERN"
+  ],
   "author": "Yoan Yomba, Sean Kirkland",
   "license": "MIT",
   "bugs": {
@@ -22,13 +29,16 @@
   },
   "homepage": "https://github.com/yoanyomba123/Web-Application#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.18.3",
     "bootstrap": "^4.1.1",
     "concurrently": "^3.5.1",
+    "emailjs": "^2.0.0",
     "express": "^4.16.3",
     "mongoose": "^5.1.2",
+    "nodemailer": "^4.6.5",
     "nodemon": "^1.17.4",
     "pug": "^2.0.3",
-    "request": "^2.85.0"
+    "request": "^2.85.0",
+    "sendmail": "^1.4.1"
   }
 }
