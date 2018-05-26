@@ -75,6 +75,15 @@ img {
   margin-top: 10px;
   margin-bottom: -20px;
 }
+.full-page-carousel {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
 
 .landing-inner {
   padding-top: 80px;
